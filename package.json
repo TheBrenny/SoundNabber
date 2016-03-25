@@ -1,0 +1,30 @@
+{
+  "name": "soundnabber",
+  "version": "0.0.1",
+  "description": "Grab sounds from the awesome SoundCloud without any extra work than adding it to a playlist!",
+  "main": "soundnab.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheBrenny/SoundNabber.git"
+  },
+  "bin": "soundnab.js",
+  "keywords": [
+    "sound",
+    "cloud",
+    "soundcloud",
+    "nab",
+    "download",
+    "track"
+  ],
+  "author": "Jarod Brennfleck <thebrenny@brennytizer.com.au> (http://brennytizer.com.au)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TheBrenny/SoundNabber/issues"
+  },
+  "dependencies": {
+    "colors": "~1.1.2",
+    "readline-sync": "~1.4.1",
+    "request": "~2.69.0",
+    "node-cron": "~1.1.1"
+  }
+}
