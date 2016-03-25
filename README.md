@@ -5,6 +5,7 @@ a playlist!
 ## Installation
 To get started using this package, download this repository and `npm install`
 the dependencies:
+
 1. `git clone https://github.com/thebrenny/soundnabber.git`
 2. `cd SoundNabber`
 3. `npm install`
@@ -42,8 +43,8 @@ any new tracks to download!
 
 ## Contributers
 | Username | Name | Email |
-|-|-|
+|----------|------|-------|
 | [TheBrenny](http://www.github.com/TheBrenny) | Jarod Brennfleck | [thebrenny@brennytizer.com.au](mailto:thebrenny@brennytizer.com.au) |
 
 ## License
-This project uses the GNU GPL v3 License.
+This project is licensed under the GNU GPL v3 License.
