@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SoundNabber Statistics</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    <!-- Minified bootstrap had Glyphicons. We don't want none o' that 'ere! Might use FontAwesome instead... -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./css/keen-dashboards.css" />
+    <style>
+      .loading-pill::before {
+        z-index: -1;
+        height: 50px;
+        width: 0%;
+        position:absolute;
+        border-radius: 10px 5px 5px 10px;
+        background-color: #5CBF5C;
+        background-image: linear-gradient(to right, #5cbf5c 85%, #3D4A57 105%);
+      }
+      .navbar-header .navbar-brand {
+        z-index: 2;
+        text-shadow: 0px 0px 5px #3D4A57;
+        margin-left: 0px;
+      }
+      .chart-wrapper .chart-stage {
+         min-height: 300px;
+      }
+      .bottom-chart .chart-stage {
+        min-height: 100px;
+      }
+    </style>
+  </head>
+  <body class="application">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header loading-pill">
+          <a class="navbar-brand" href="./">SoundNabber Statistics</a>
+        </div>
+        <!-- Don't need none of this right now...
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+          </ul>
+        </div>
+        -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="chart-wrapper">
+            <div class="chart-title">
+              Last Nab Job
+            </div>
+            <div class="chart-stage">
+            </div>
+            <div class="chart-notes">
+              Explanation of what happened the last time we nabbed some tracks from
+              Soundcloud.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="chart-wrapper">
+            <div class="chart-title">
+              Configuation File
+            </div>
+            <div class="chart-stage">
+
+            </div>
+            <div class="chart-notes">
+              Edit and manipulate your configuration file.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="chart-wrapper bottom-chart">
+            <div class="chart-title">
+              ... Idk ...
+            </div>
+            <div class="chart-stage">
+              <img src="https://s-media-cache-ak0.pinimg.com/564x/62/9c/52/629c52f5c747dfb988bd73236dcc5f8d.jpg" alt="Lol. Programming Memes..." />
+            </div>
+            <div class="chart-notes">
+              Not quite sure what's going here yet, so enjoy this lovely picture!
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>
+    </div>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/holder.js"></script>
+    <script>
+      Holder.add_theme("white", { background:"#fff", foreground:"#a7a7a7", size:10 });
+    </script>
+    <script type="text/javascript" src="./js/keen.min.js"></script>
+    <script type="text/javascript" src="./js/meta.js"></script>
+  </body>
+</html>
